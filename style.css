@@ -54,7 +54,7 @@
 
 
 .bg1 {
-  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img1.jpg');
+  background-image: url('./images/img1.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -62,21 +62,21 @@
 
 
 .bg2 {
-  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img4.png');
+  background-image: url('./images/img4.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .bg3 {
-  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img3.png');
+  background-image: url('./images/img3.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .bg4 {
-  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img4.jpg');
+  background-image: url('./images/img4.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
