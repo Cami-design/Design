@@ -1,0 +1,115 @@
+.body {
+  margin: 0px;
+  background: no-repeat;
+}
+
+.logo {
+
+  margin-top: 10px;
+  margin-left: 20px;
+  
+}
+
+.topnav-right {
+  position: fixed;
+  margin-right: 20px;
+  margin-top: 1%;
+  right: 0px;
+ 
+} 
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100vw;
+  position: relative;
+}
+
+.section { 
+  position: relative;
+  height: 100vh;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+ 
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+}
+
+
+.bg1 {
+  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.bg2 {
+  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img4.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg3 {
+  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img3.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg4 {
+  background-image: url('file:///Users/cami/Library/Mobile%20Documents/com~apple~CloudDocs/%E2%80%A2%20Personal/Web2/images/img4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.footer-links {
+  list-style-type: none;
+  display:inline-block;
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+
+a {
+  color:rgb(65, 58, 58);
+  text-decoration-line: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+a:hover {
+  color:rgb(171, 113, 123);
+  
+}
+
+p {
+  color:rgb(192, 190, 189);
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.arrow {
+  display:flex;
+  position: sticky center;
+  background-position: center;
+}
