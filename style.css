@@ -63,7 +63,7 @@ body {
 }
 
 .bg3 {
-  background-image: url('./images/img3.png');
+  background-image: url('./images/img3.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -80,6 +80,7 @@ body {
   list-style-type: none;
   display:inline-block;
   margin-top: 100px;
+  margin-bottom: 50px;
   margin-left: 50px;
 
 }
