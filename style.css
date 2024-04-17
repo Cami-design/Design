@@ -1,6 +1,8 @@
-.body {
+body {
   margin: 0px;
   background: no-repeat;
+  overflow: hidden;
+
 }
 
 .logo {
@@ -9,14 +11,6 @@
   margin-left: 20px;
   
 }
-
-.topnav-right {
-  position: fixed;
-  margin-right: 20px;
-  margin-top: 1%;
-  right: 0px;
- 
-} 
 
 .wrapper {
   height: 100vh;
@@ -41,7 +35,7 @@
 
 .parallax::after {
   content: " ";
-  position: absolute;
+  position: fixed ;
   top: 0;
   right: 0;
   bottom: 0;
