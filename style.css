@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
   background: no-repeat;
@@ -45,8 +49,6 @@ body {
     align-items: center;
   }
 }
-
-
 
 .wrapper {
   height: 100vh;
