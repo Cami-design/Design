@@ -13,6 +13,42 @@ body {
 }
 
 .wrapper {
+  /* Your wrapper styles for desktop */
+
+}
+
+/* Add media queries for mobile */
+@media (max-width: 480px) {
+  .wrapper {
+    /* Your modified wrapper styles for mobile */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  .section.parallax {
+    height: 200px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .wrapper-list-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+.wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
